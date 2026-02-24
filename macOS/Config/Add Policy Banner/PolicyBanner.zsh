@@ -48,7 +48,7 @@ rm -f "$PolicyBannerFile"
 
 # create the file with the banner text
 echo "$(date) | Creating the Policy Banner file stating:"
-echo "This is the Policy Banner for the Mac. By logging in you agree to the terms and conditions of the UEMCATLABS. If you do not agree, please log out now." | tee $PolicyBannerFile 
+echo "this information system is the property of Kelly Benefits. This information system, including all related equipment, networks, and network devices (specifically including internet access), are provided only for authorized employees of Kelly Benefits and other authorized employees. Any or all use of this system may be intercepted, monitored, recorded and audited for all lawful purposes, including to ensure their use is authorized, for management of the system, to facilitate protection against unauthorized access and to verify security procedures. Unauthorized or improper use of this system may result in disciplinary action up to and including termination of employment, and/or civil charges/criminal penalties, and/or prosecution by law. Evidence of unauthorized use collected during monitoring may be used for administrative, criminal, or other adverse action. By continuing to use this system, you indicate your awareness of and consent to these terms and conditions of use" | tee $PolicyBannerFile 
 sleep 5s
 
 # Check if file was created successfully
